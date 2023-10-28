@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Drjacky:ImagePicker:2.1.13@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c75ea2103240d6e4a387053685c06b39/transformed/ImagePicker-2.1.13/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c75ea2103240d6e4a387053685c06b39/transformed/ImagePicker-2.1.13/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c75ea2103240d6e4a387053685c06b39/transformed/ImagePicker-2.1.13/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Drjacky/ImagePicker/2.1.13/840dd0e9fde07a81f6433de4fd64070145ca76e0/ImagePicker-2.1.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

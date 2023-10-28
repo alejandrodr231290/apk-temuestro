@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ProductoFragment">
+
+    <fragment
+        android:id="@+id/ProductoFragment"
+        android:name="cu.sitransvc.temuestro.FRAGMENT.ProductoFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_producto">
+        <action
+            android:id="@+id/action_ProductoFragment_to_ConfigracionFragment"
+            app:destination="@id/ConfigracionFragment"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+
+
+            />
+        <action
+            android:id="@+id/action_ProductoFragment_to_detalleProductoFragment"
+            app:destination="@id/DetalleProductoFragment"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+
+             />
+        <action
+            android:id="@+id/action_ProductoFragment_to_acercaDeFragment"
+            app:destination="@id/acercaDeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/ConfigracionFragment"
+        android:name="cu.sitransvc.temuestro.FRAGMENT.ConfiguracionFragment"
+        android:label="@string/configuracion_fragment_label"
+        tools:layout="@layout/fragment_configuracion">
+        <action
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            android:id="@+id/action_ConfigracionFragment_to_ProductoFragment"
+            app:destination="@id/ProductoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DetalleProductoFragment"
+        android:name="cu.sitransvc.temuestro.FRAGMENT.DetalleProductoFragment"
+        android:label="@string/producto_name"
+        tools:layout="@layout/fragment_detalle_producto">
+        <action
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            android:id="@+id/action_detalleProductoFragment_to_ProductoFragment"
+            app:destination="@id/ProductoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/acercaDeFragment"
+        android:name="cu.sitransvc.temuestro.FRAGMENT.AcercaDeFragment"
+        android:label="@string/acercade" >
+        <action
+            android:id="@+id/action_acercaDeFragment_to_ProductoFragment"
+            app:destination="@id/ProductoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            />
+    </fragment>
+</navigation>

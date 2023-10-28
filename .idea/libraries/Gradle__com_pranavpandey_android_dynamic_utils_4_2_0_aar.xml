@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pranavpandey.android:dynamic-utils:4.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fb367b28b4e1a47a6a44a2da77fa0a90/transformed/dynamic-utils-4.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fb367b28b4e1a47a6a44a2da77fa0a90/transformed/dynamic-utils-4.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fb367b28b4e1a47a6a44a2da77fa0a90/transformed/dynamic-utils-4.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pranavpandey.android/dynamic-utils/4.2.0/3d1ebee9c30bac5f90d4cbbc7c9c9c9e86ea3337/dynamic-utils-4.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pranavpandey.android/dynamic-utils/4.2.0/78d7b03b317b5928272fd950a33312991eb20ff9/dynamic-utils-4.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

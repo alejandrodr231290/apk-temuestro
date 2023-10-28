@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cu.sitransvc.temuestro.MainActivity">
+    <group>
+        <item
+            android:id="@+id/menu_buscar"
+            app:actionViewClass="android.widget.SearchView"
+            android:title="@string/buscar"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/menu_almacen"
+            android:title="@string/almacen"
+             />
+        <item
+            android:id="@+id/menu_inv_tot"
+            android:title="@string/invntario_total" />
+        <item
+            android:id="@+id/menu_exportar"
+            android:title="@string/exportar"
+            />
+        <item
+            android:id="@+id/menu_configuracion"
+            android:title="@string/configuracion_fragment_label" />
+        <item
+            android:id="@+id/menu_acercade"
+            android:title="@string/acercade" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">T-Muestro</string>
+    <string name="action_settings">Conexión</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="configuracion_fragment_label">Configuración</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="producto_name">Detalle de Producto</string>
+    <!-- Preference Titles -->
+    <string name="messages_configuracion">Configuración</string>
+    <string name="messages_conexion">Conexión</string>
+
+    <!-- Messages Preferences -->
+    <string name="preferencia_title_host">Host</string>
+    <string name="preferencia_value_host">api.vc.sitrans.cu</string>
+    <string name="preferencia_title_puerto">Puerto</string>
+    <string name="preferencia_value_puerto">8000</string>
+
+    <string name="preferencia_title_vibrar">Vibrar</string>
+    <string name="preferencia_value_si">Si</string>
+    <string name="preferencia_value_no">No</string>
+    <string name="preferencia_value_flotante">Flotante</string>
+    <string name="preferencia_value_confirmacion">Diálogo</string>
+    <string name="preferencia_value_mostrar">Mostrar</string>
+    <string name="preferencia_value_oculto">Oculto</string>
+
+    <string name="preferencia_value_admin">admin</string>
+    <string name="preferencia_title_tipo_notificacon">Tipo de Notificación</string>
+    <string name="preferencia_title_ultima_conexion">Última Conexión</string>
+    <string name="preferencia_title_user">Usuario</string>
+    <string name="preferencia_title_password">Contraseña</string>
+    <string name="almacen">Seleccionar Almacén</string>
+    <string name="exportar">Exportar</string>
+    <string name="licencia">Licencia</string>
+    <string name="acercade">Acerca de..</string>
+
+    <string name="m_autentificacion_fail">Autentificación Incorrecta!</string>
+
+    <string name="m_error_500">API Internal Server Error</string>
+    <string name="m_res_inesperada">Error inesperado</string>
+    <string name="m_error_conexion">"Error de red"</string>
+    <string name="invntario_total">Inventario total</string>
+    <string name="ultumo_check">Última conexión</string>
+    <string name="seleccione">Seleccione almacén</string>
+    <string name="vacio">Inventario vacío</string>
+    <string name="carga_completa">Datos cargados</string>
+    <string name="derechos_reservados">Todos los derechos reservados</string>
+    <string name="stransvc">SITRANS VC 2022</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_encontrado">No hay productos</string>
+    <string name="conecte">Configure una conexión</string>
+    <string name="buscar">Buscar</string>
+    <string name="carga"> </string>
+
+
+</resources>

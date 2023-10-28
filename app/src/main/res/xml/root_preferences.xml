@@ -1,0 +1,82 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:allowDividerBelow="true">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/messages_configuracion">
+
+        <SwitchPreferenceCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:defaultValue="true"
+            app:icon="@drawable/vibration"
+            app:key="vibrar"
+            app:summaryOff="@string/preferencia_value_no"
+            app:summaryOn="@string/preferencia_value_si"
+            app:title="@string/preferencia_title_vibrar" />
+        <SwitchPreferenceCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:defaultValue="true"
+            app:icon="@drawable/notifications"
+            app:key="notificacion"
+            app:summaryOff="@string/preferencia_value_confirmacion"
+            app:summaryOn="@string/preferencia_value_flotante"
+            app:title="@string/preferencia_title_tipo_notificacon" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@drawable/eye"
+            app:key="conexion"
+            app:summaryOff="@string/preferencia_value_oculto"
+            app:summaryOn="@string/preferencia_value_mostrar"
+            app:title="@string/preferencia_title_ultima_conexion" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"
+        app:iconSpaceReserved="false"
+        app:title="@string/messages_conexion">
+
+        <EditTextPreference
+            android:dialogIcon="@drawable/ip"
+            android:icon="@drawable/ip"
+            app:defaultValue="@string/preferencia_value_host"
+            app:key="host"
+            app:title="@string/preferencia_title_host"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:dialogIcon="@drawable/port"
+            android:icon="@drawable/port"
+            app:defaultValue="@string/preferencia_value_puerto"
+            app:key="puerto"
+            app:title="@string/preferencia_title_puerto"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Credenciales"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:dialogIcon="@drawable/user"
+            android:icon="@drawable/user"
+            app:defaultValue="@string/preferencia_value_admin"
+            app:key="username"
+            app:title="@string/preferencia_title_user"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+
+            android:defaultValue="false"
+            android:dialogIcon="@drawable/contrasena"
+            android:icon="@drawable/contrasena"
+            app:defaultValue="@string/preferencia_value_admin"
+            app:key="password"
+            app:title="@string/preferencia_title_password"
+            app:useSimpleSummaryProvider="false" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

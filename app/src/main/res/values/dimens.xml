@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="boton">40dp</dimen>
+    <dimen name="d_50dp">50dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>
